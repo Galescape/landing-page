@@ -45,7 +45,7 @@ a {
     font-weight: 300;
 }
 
-/* Header content */
+/* Header content - Hero */
 
 .header-content {
     padding: 10% 0;
@@ -103,7 +103,7 @@ a {
     font-weight: 300;
 }
 
-/* Section two */
+/* Section two - Cards */
 
 .section-two {
     display: flex;
@@ -142,4 +142,29 @@ a {
     width: 150px;
     height: 150px;
     border-radius: 20px;
+}
+
+/* Section three - Quote */
+
+.section-three {
+    background-color: #e5e7eb;
+    padding: 8% 19%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.section-three > em {
+    font-weight: 300;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.section-three > div {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
+    align-self: flex-end;
+    padding-right: 40px;
 }
